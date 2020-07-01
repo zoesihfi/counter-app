@@ -16,7 +16,7 @@ render() {
         <div className="counter">
             <h2 className="current-count">{currCount}</h2>
             <h3 className="result" style={{color:"red"}}>{result}</h3>
-            <button className="btn btn-primary"> Increase </button>
+            <button className="increment"> Increase </button>
         </div>
         )
     }
